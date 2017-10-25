@@ -7,8 +7,8 @@ For using Terraform, you need an AWS key/secret
 With AWS access key and access key secret, change `~/.aws/credentials`:
 ```ini
 [default]
-aws_access_key_id = [你的 access key id]
-aws_secret_access_key = [你的 access key secret]
+aws_access_key_id = [Your access key id]
+aws_secret_access_key = [Your access key secret]
 ```
 
 Access ec2 from remote ssh, you need an ec2 keypair
@@ -16,5 +16,5 @@ Access ec2 from remote ssh, you need an ec2 keypair
 
 After getting AWS EC2 private key, save it locally。Run this to grant private key permission
 ```sh
-chmod 400 [private key的位置]
+chmod 400 [private key location]
 ```
