@@ -1,3 +1,2 @@
 # play-big-data
-
-Play with various big data frameworks
+Stock big data warehouse.
